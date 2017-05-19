@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Md';
+  src: url('../fonts/HelveticaNeueLTStd-Md.otf') format('opentype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format('opentype'); /* Safari, Android, iOS */
+}
+
+body{
+	min-height: 100%;
+	font-family: HelveticaNeueLTStd-Lt;
+	letter-spacing: 1.3px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #2b2b2b;
+    outline: none !important;
+}
+a:hover{
+	text-decoration: none !important;
+}
+/* ---------------------HOME------------------ */
+
+
+/* ------TOP-HEADER------- */
+.top-header{
+	color: #5c5c5c;
+	height: 30px;
+	background-color: #eeeeee;
+}
+
+.top-header i{
+	margin-top: 8px;
+}
+
+.top-header i::before{
+	margin-right: 10px;
+}
+
+.top-header span{
+	font-family: HelveticaNeueLTStd-Lt;
+}
+.top-header .phoneto{
+	margin-left: 40px;
+}
+
+/* ------BOTTOM-HEADER------- */
+.bottom-header{
+	border-bottom: solid 12px #333333;
+	padding: 15px 0;
+}
+/* ------NAV------- */
+.navbar{
+	min-height: auto;
+}
+.brand-logo img{
+    width: 184px;
+    margin: 25px auto 10px;
+    display: block;
+}
+
+.navbar.navbar-default{
+	margin: 0;
+}
+.navbar-brand{
+	padding: 5px;
+}
+.navbar-brand img{
+	padding: 0;
+	max-height: 100%;
+}
+
+.navbar-default{
+	border: none;
+	background-color: #ffffff;
+}
+
+.nav.navbar-nav li a{
+	font-family: HelveticaNeueLTStd-Lt;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: white;
+	color: #0199AE;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover
+
+.bottom-header{
+	border-bottom: 
+}
+
+/* ------MAIN------- */
+main{
+	margin: 40px 0;
+}
+main.home{
+	margin: 0;
+}
+.gallery{
+	margin: 60px 0;
+}
+.gallery .parent-content{
+	border: solid 1px #a4a4a4;
+	position: relative;
+}
+
+.gallery .parent-content h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    background: rgba(164, 164, 164, 0.85);
+    border: solid 5px #fff;
+    margin:  0;
+}
+
+.gallery .parent-content h1 a{
+    color: #fff;
+    font-family: HelveticaNeueLTStd-Md;
+}
+
+.gallery .parent-content h1:hover, .gallery .parent-content h1:focus{
+	border-color: #ede630;
+}
+.gallery .parent-content h1:hover a, .gallery .parent-content h1:focus a{
+    color: #ede630;
+    text-decoration: none;
+}
+
+.quality h1, .shipping h1{
+	font-family: HelveticaNeueLTStd-Md;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.workshop{
+	margin: 60px 0;
+	background: url('../img/workshop.jpg');
+    height: 300px;
+	background-repeat: round;
+	color: #fff;
+}
+
+.workshop .caption{
+    top: 50%;
+    transform: translateY(15%);
+    height: 222px;
+}
+
+.workshop .caption h1{
+	font-family: HelveticaNeueLTStd-Md;
+	margin-bottom: 20px;
+}
+
+.workshop .caption p{
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    line-height: 1.7;
+}
+
+.workshop .caption a{
+	font-family: HelveticaNeueLTStd-Lt;	
+    font-size: 25px;
+    float: right;
+    margin-top: 20px;
+	color: #ede630;
+}
+
+.shipping{
+	margin-bottom: 60px;
+}
+
+.shipping img{
+    margin: auto;
+    display: block;
+}
+
+.breadcrumb{
+	text-align: center;
+	background: none;
+	border: none;
+	border-radius: 0;
+	max-width: 450px;
+	margin: auto;
+	
+}
+.breadcrumb li a{
+	color: #2b2b2b;
+}
+.breadcrumb li.active a{
+	color: #0199AE;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: inside;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.btn-default{
+	border: none;
+    background-color: #fcd670;
+    border-radius: 0;
+    color: #ffffff !important;
+    font-family: 'HelveticaNeueLTStd-Md';
+}
+.btn-border{
+	border: solid thin #ffffff;
+	border-radius: 0;
+	color: #ffffff;
+	padding: 10px 15px;
+	font-family: 'HelveticaNeueLTStd-Md';
+}
+.btn-border:hover{
+	border-color: #fcd670;
+	color: #fcd670;
+}
+.fixed-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 80;
+    background: white;
+}
+#footer{
+	background: #eeeeee;
+	padding: 35px 0;
+	color: #2b2b2b;
+}
+#footer .logo{
+	max-width: 100%;
+	margin-bottom: 25px;
+}
+#footer ul{
+	margin: 0;
+	padding: 0;
+}
+#footer ul li{
+	list-style: none;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.title{
+	font-family: 'HelveticaNeueLTStd-Md';
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.footer-menu li.title,
+.contact li.title,
+.social li.title{
+	border-bottom: solid thin #dddddd;
+}
+#footer ul li a{
+	color: #2b2b2b;	
+	font-size: 12px;
+}
+#footer ul li a:hover{
+	color: #fcd670;
+}
+#footer .contact{
+
+}
+#footer .contact li{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+#footer .contact span{
+	font-family: 'HelveticaNeueLTStd-Lt';
+	text-transform: none;
+}
+#footer .contact .email::before,
+#footer .contact .phone::before{
+	margin-right: 10px;
+}
+#footer .social .icon-circle{
+	width: 37px;
+    height: 37px;
+    line-height: 36px;
+    margin-right: 5px;
+    background: #fff;
+    border: solid thin #d8d8d8;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 4px 4px 10px -2px #8f8f8f;
+    box-shadow: 4px 4px 10px -2px #8f8f8f;
+}
+.icon-circle .fa-facebook{
+	color: #306299 !important;
+}
+.icon-circle .fa-instagram{
+	color: #037bb6 !important;
+}
+#footer .social .icon-circle a{
+	font-size: 16px;
+}
+
+#footer .contact .icon-circle:hover,
+#footer .contact .icon-circle:hover a{
+	border-color: #fcd670;
+	color: 	#fcd670;
+}
+.content-product{
+	margin: 35px 0;
+}
+.content-product .caption{
+	margin-bottom: 50px;
+}
+.product1 h3{
+	font-size: 14px; 
+}
+.product1 .col-md-4 {
+    width: 25%;
+}
+
+.content-product a{
+	color: #2b2b2b;
+}
+.content-product h3{
+	color: #0199AE;
+}
+.content-product a:hover .caption h3,
+.content-product a:focus .caption h3{
+	color: #0185ae;
+	text-decoration: none;
+}
+
+.content-product .price,
+.content-product .size{
+	font-size: 14px;
+}
+.contact-hero{
+	max-width: 50%;
+    margin: 0px auto 40px;
+}

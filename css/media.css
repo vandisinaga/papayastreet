@@ -1,0 +1,151 @@
+@media screen and (max-width: 480px){
+	.slick-next:before
+		{
+		    content: '\f054';
+		   
+		    border-bottom-left-radius: 0px;
+		    border-top-left-radius: 0px;
+		}
+		.slick-prev:before
+	{
+	    content: '\f053';
+	    
+	    border-bottom-right-radius: 0px;
+	    border-top-right-radius: 0px;
+	}
+	.slick-prev:before,
+	.slick-next:before
+	{
+	    font-family: 'FontAwesome';
+	    font-size: 20px;
+	    line-height: 1;
+	    background-color: transparent;
+	    padding: 0;
+
+	    opacity: .75;
+	     color: #ede630;
+
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	}
+	.contact-hero{
+		max-width: 100%;
+	    margin: 20px auto 40px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.top-header .phoneto{
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	.navbar-brand{
+		margin-left: 10px;
+	}
+	#footer .logo {
+	    max-width: 150px;
+	    margin: 10px auto 35px;
+	}
+}
+@media screen and (max-width: 767px){
+	body{
+		font-size: 11px;
+	}
+	.top-header{
+		height: auto;
+	}
+	.hero {
+        height: 300px;
+	}
+	.hero .caption{
+		width: auto;
+		transform: translateY(30%);
+	}
+	.hero .caption h1{
+	    font-size: 27px;
+    	text-align: left;
+	}
+	.go-to a{
+	    margin-top: 10px;
+   		padding: 5px 8px;
+	}
+	.apparel,.artworks{
+		margin-top: 15px;
+	}
+	.workshop{
+		height: auto;
+	    background-repeat: inherit;
+	    background-size: cover;
+	}
+	.workshop .caption{
+	    transform: translateY(5%);
+	}
+
+	#footer .contact{
+		margin-top: 30px;
+		float: none;
+	}
+	.workshop .caption p{
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+	.quality h1, .shipping h1,.workshop .caption h1{
+		font-size: 20px;
+	}
+	.workshop .caption a{
+		font-size: 20px;
+	}
+	.footer-menu li.title, #footer .contact li, #footer .social li{
+		font-size: 14px;
+	}
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+	body{
+		font-size: 11px;
+	}
+	.gallery .parent-content h1{
+		font-size: 14px;
+	}
+	.hero {
+        height: 325px;
+	}
+	.hero .caption{
+		transform: translateY(30%);
+	}
+	.hero .caption h1{
+		font-size: 51px;
+	}
+	.workshop-container{
+		height: 300px;
+	}
+	.workshop .caption{
+	    transform: translateY(13%);
+	}
+	.workshop .caption p{
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+	.quality h1, .shipping h1,.workshop .caption h1{
+		font-size: 20px;
+	}
+	.workshop .caption a{
+		font-size: 20px;
+	}
+	.footer-menu li.title, #footer .contact li, #footer .social li{
+		font-size: 14px;
+	}
+}
+@media screen and (min-width:1024px) and (max-width: 1200px){
+	.hero {
+	    height: 460px;
+	}
+	.hero .caption{
+		transform: translateY(45%);
+	}
+	.workshop-container{
+		height: 320px;
+	}
+	.workshop .caption{
+		transform: translateY(15%);
+	}
+}
